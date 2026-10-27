@@ -1,0 +1,22 @@
+# Local source datasets and event-level extracts
+/data/raw/
+/data/boundaries/
+/data/processed/conflict_points_3countries.csv
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Sessions, system files, caches, and QGIS backups
+.DS_Store
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp
+*.qgz~
+*.qgs~
+*.qgd
+*.bak
+*.tmp

@@ -1,0 +1,11 @@
+KG_code,KG_zone_name,conflict_count
+BSh,Hot semi-arid climate,100
+BSk,Cold semi-arid climate,87
+BWh,Hot desert climate,6
+BWk,Cold desert climate,2
+Cfa,"Temperate climate, no dry season, hot summer",1242
+Cfb,"Temperate climate, no dry season, warm summer",412
+Csa,"Temperate climate, dry summer, hot summer",6
+Csb,"Temperate climate, dry summer, warm summer",121
+Cwa,"Temperate climate, dry winter, hot summer",127
+Cwb,"Temperate climate, dry winter, warm summer",825

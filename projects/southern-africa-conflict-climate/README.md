@@ -6,7 +6,13 @@ A spatial analysis and cartographic project completed for **GPEC 443**, examinin
 
 ## Project overview
 
-This project combines R-based data preparation with QGIS spatial analysis to map conflict events and summarize their distribution across climate zones. The processed event dataset contains **2,928 records spanning 1989–2025**. The climate-zone summary accounts for all 2,928 records.
+How are recorded conflict events distributed across the contrasting climate zones of Southern Africa? This project combines R-based data preparation with QGIS spatial analysis to explore this question in South Africa, Namibia, and Botswana, with South Africa as the focal case.
+
+South Africa offers a distinctive setting because its climate geography intersects with persistent spatial inequalities rooted in apartheid. Unequal access to land, employment, and services provides an important social context for interpreting the geography of violence, although these factors are not directly tested in this project (World Bank, 2022). Neighboring Namibia and Botswana extend the study across a contiguous regional landscape, placing South Africa’s patterns alongside neighboring climate zones and different national contexts. They provide regional context rather than a controlled comparison.
+
+The study is informed by research showing that relationships between climate and conflict depend on socioeconomic and political conditions rather than a simple, direct environmental mechanism (Koubi, 2019). It maps 2,928 UCDP GED events spanning 1989–2025 and summarizes their distribution across Köppen–Geiger climate zones. Of these records, 2,908 are in South Africa, 19 in Namibia, and 1 in Botswana, so the analysis primarily describes South African patterns within a broader regional setting.
+
+This is an exploratory analysis of spatial distributions. Köppen–Geiger zones describe climate regimes rather than changes in climate over time, and raw event counts are not adjusted for population or land area. The results therefore do not establish that climate or climate change causes conflict.
 
 ## Methods and skills
 

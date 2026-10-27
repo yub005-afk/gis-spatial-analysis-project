@@ -57,4 +57,14 @@ The R scripts cover event preparation. Spatial overlays, aggregation, and map la
 
 ## Data sources and publication status
 
-Sources are UCDP GED v26.1, Köppen–Geiger climate classification, and GADM v4.1. Exact climate-data provenance and redistribution terms remain to be verified. Original datasets and intermediate spatial layers are excluded. Third-party data are subject to their respective source terms; no blanket data license is asserted here. See [data source notes](DATA_SOURCES.md).
+- **Conflict events:** UCDP Georeferenced Event Dataset (GED), version 26.1, covering **1989–2025**. UCDP data are available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See the [UCDP Download Center](https://ucdp.uu.se/downloads/) for data and recommended citations.
+- **Climate classification:** Köppen–Geiger climate zones for the **1976–2000 baseline period**, corresponding to the dataset distributed through the [World Bank Data Catalog](https://datacatalog.worldbank.org/search/dataset/0042325/world-maps-of-the-k-ppen-geiger-climate-classification), which lists it under CC BY 4.0. Comparison with the public download found matching attributes and per-feature vertex-coordinate sets, with differences in geometry organization and coordinate-reference metadata. This establishes a strong data match, rather than a documented history of the local file's processing.
+- **Administrative boundaries:** GADM version 4.1. Original boundary datasets are not redistributed here. See the [GADM license](https://gadm.org/license.html) for applicable terms.
+
+The climate layer represents a historical climate baseline, not annual climate conditions during the conflict observation period. Original source datasets and intermediate spatial layers are excluded. Third-party materials retain their respective license terms.
+
+**Climate data reference:** Rubel, F., & Kottek, M. (2010). Observed and projected climate shifts 1901–2100 depicted by world maps of the Köppen–Geiger climate classification. *Meteorologische Zeitschrift, 19*, 135–141. https://doi.org/10.1127/0941-2948/2010/0430
+
+**UCDP GED reference:** Sundberg, R., & Melander, E. (2013). Introducing the UCDP Georeferenced Event Dataset. *Journal of Peace Research, 50*(4), 523–532. https://doi.org/10.1177/0022343313484347
+
+See [DATA_SOURCES.md](DATA_SOURCES.md) for additional source and dependency notes.
